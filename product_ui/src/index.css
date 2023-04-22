@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* .container{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(159, 213, 213);
+  width: 300px;
+  height: 420px;
+  text-align: center;
+  margin-top: 0px;
+} */
+
+.tag{
+  margin-bottom: 30px;
+}
+input{
+  border: 2px solid rgb(53, 208, 250);
+  border-radius: 5px;
+}
+.btn{
+  border: 2px solid rgb(11, 92, 3);
+  border-radius: 10px;
+}
+.btn:hover{
+  background-color: rgb(5, 105, 141);
+  color: white;
+
+}
+.table{
+  background-color: #ffeee6;
+  color: white;
+  margin: 0px;
+}
+.btn-1{
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
+  padding: 40px; 
+  position: relative;
+  
+}
+.container-1{
+  margin-top: 0px;
+}
+.btn-LP{
+  background-color: rgb(52, 52, 252);
+  border-radius: 5px;
+  color: white;
+  position: absolute;
+  left: 600px;
+}
+.btn-AP{
+  background-color:  rgb(52, 52, 252);
+  border-radius: 5px;
+  color: white;
+  position: absolute;
+  right: 50px;
+}
+.btn-LP:hover{
+  transform: scale(1.2);
+}
+.btn-AP:hover{
+  transform: scale(1.2);
+}
+
+
+.searchinput{
+  position: absolute;
+  left: 60px;
+}
+
+element.style {
+  margin-bottom: 0px;
+}
+.navL:hover{
+  color: white;
+
+}
+.btn-c{
+  background-color: rgb(111, 111, 240);
+  margin-right: 30px;
+}
+.btn-D{
+  background-color: rgb(246, 83, 83);
+}
+.btn-c{
+  border-radius: 5px;
+}
+.btn-c:hover{
+  color: white;
+  transform: scale(0.9);
+}
+.section-1{
+  background-color: #ffeee6;
+  height: 592px;
+  position: relative;
+
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(159, 213, 213);
+  width: 300px;
+  height: 420px;
+  text-align: center;
+  margin-top: 0px;
+  position: absolute;
+  top: 145px;
+  left: 530px;
+}
+.box-1{
+  
+  background-color:#3f1720;
+  width: 100%;
+  height: 590px;
+  color: white;
+}

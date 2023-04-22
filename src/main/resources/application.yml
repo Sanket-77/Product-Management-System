@@ -1,0 +1,19 @@
+#server:
+#  port: '8089'
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://root:root@cluster2.obglv3p.mongodb.net/Productsdb?retryWrites=true&w=majority
+
+logging:
+  level:
+    web: TRACE
+    org:
+      springframework:
+        web: TRACE
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
